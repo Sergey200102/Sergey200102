@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.menu_text2{
+    color: #828282;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+    border-bottom: black;
+    border-style: solid;
+    border-top: inherit;
+    border-left: inherit;
+    border-right: inherit;
+    padding-bottom: 42px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.info_text{
+    margin-top: 33px;
+}
+.best_text{
+    margin-top: 50px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.about_me{  
+    background: #F6F6F6;
+    text-align: center;
+    margin-top: 64px;
+}
+.dad_h2{
+    padding-top: 30px;
+}
+.about_me_h{
+    font-size: 34px;
+    margin-top: 44px;
+}
+.about_me_text{
+    width: 485px;
+    margin: 0 auto;
+    padding-bottom: 115px;
+}
+
+.text1{
+    font-size: 18px;
+    margin-top: 34px;
+}
+@media(max-width:550px){
+  
+    .about_me_text{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 115px;
+    }
+
+}
+
+
+.skills{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 91px;
+}
+.skills_text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #828282;
+    margin-bottom: 34px;
+}
+.skills_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stars2{
+    padding-top: 13px;
+}
+.stars3{
+    padding-bottom:20px;
+}
+.paint4{
+    padding-top: 10px;
+}
+.photoshop_text{
+    text-align: center;
+}
+.figma_text{
+    margin-top: 22px;
+}
+.port_bgc{
+    background-color: #F6F6F6;
+    margin-top: 110px;
+}
+
+
+
+.portfolio{
+    text-align: center;
+    margin-top: 38px;
+    font-size: 34px;
+    margin-bottom: 47px;
+}
+
+#portfolio{
+    padding-top: 110px;
+}
+.portfolio_text{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 90px;
+    text-decoration:underline;
+}
+.vidio{
+   margin-left: auto; 
+   margin-right: auto;
+}
+.vidio_item{
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+.skills_img{
+    margin-left: 15px;
+    width:90px;
+}
+.skills_img2{
+    margin-left: 15px;
+    width:70px;
+}
+
+
+
+@media(max-width:550px){
+    .stars{
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .skills_img{
+        margin-left: 33%;
+    }
+    .skills_img2{
+        margin-left: 38%;
+    }
+    .vidio_item{
+        width: 100%;
+        margin-left: 0px;
+    }
+  }
+.contacts_h{
+    text-align: center;
+    font-weight:bold;
+    font-family: 'Koulen', cursive; 
+    font-size: 40px;
+}
+.contacts_text{
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.massage{
+    margin: 0 auto;
+    width: 200px;
+}
+.name_cont{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.name_cont2{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.img_cont{
+    width: 300px;
+}
+.img_name{
+    height: 170px;
+    position: relative;
+}
+.team_h{
+    text-align: center;
+    font-size: 40px;
+}
+.teachers{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 100px;
+}
+@media(max-width:700px){
+.container{
+    width: 650px;
+}
+@media(max-width:400px){
+    .container{
+        width: 350px;
+    }
+}
+.name_cont{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.name_cont2{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    }
+}
+.footer_img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-bottom: 50px;
+}
+.footer_text{
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    margin-bottom: 130px;
+}
+@media(max-width:700px){
+    .contacts_text{
+        font-size: 12px;
+    }
+    .contacts_h{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:620px){
+    .container{
+        width: 600px;
+    }
+    .img_header{
+        width: 90%;
+    }
+    .img_logo{
+        width: 90%;
+    }
+}
+@media(max-width:550px){
+    .container{
+        width: 320px;
+    }
+    .img_header{
+        width: 300px;
+    }
+    .img_logo{
+        width: 100%;
+    }
+    .skills_items{
+        flex-direction: column;
+    }
+    .img_cont{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img_name{
+        margin: 0 auto;
+       position: static
+    }
+    .team_name{
+        text-align: center;
+    }
+    .img_text{
+        text-align: center;
+    }
+    .teachers{
+        margin-right: 0;
+    }
+    .teachers_name{
+        text-align: center;
+    }
+    .footer_img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer_imgs{
+        width: 50px;
+        height: 50px;
+        
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
